@@ -1,0 +1,9 @@
+@mixin icon($img){
+  display: block;
+  width:  24px;
+  height: 24px;
+  content:" ";
+  background-image:$img;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

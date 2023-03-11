@@ -1,0 +1,140 @@
+.side-left {
+width: 260px;
+}
+.side-left__list {
+  display: flex;
+  flex-direction: column;
+  width: 243px;
+  list-style: none;
+padding: 0;
+ margin-bottom: 123px;
+}
+
+
+.side-left__item {
+  display: flex;
+  align-items: center;
+  width: 243px;
+ padding: 10px 10px 10px 35px;
+  border-bottom-right-radius:18px;
+ border-top-right-radius:18px;
+
+          &:first-child{
+
+               ::before{
+                  @include icon($img:url(/assets/icons/icon-home.svg));
+
+
+
+               }
+
+               &::before{
+               content: " ";
+               width: 7px;
+               height: 7px;
+               background-color: $primaryColor;
+               font-weight: bold;
+               display: inline-block;
+               border-radius:100px;
+               position: absolute;
+               margin-left: -15px;
+              }
+          }
+
+
+
+
+
+      &:hover{
+
+        transition: background-color 0.5s ease,;
+        background-color: lightblue;
+
+
+          &::before{
+            content:" ";
+             color:$primaryColor;
+        font-weight: bold;
+           display: inline-block;
+          width: 7px;
+          height: 7px;
+          border-radius: 100px;
+          background-color: $primaryColor;
+           position: absolute;
+           margin-left: -15px;
+          }
+
+          .side-left__link{
+            transition: color 0.5s ease;
+            color:$primaryColor;
+          }
+
+          .icon-aside{
+            transition: color 0.5s ease;
+            color:$primaryColor;
+          }
+      }
+}
+
+
+.side-left__link {
+display: flex;
+align-items: center;
+gap: 15px;
+text-decoration: none;
+color:$black;
+}
+.icon-aside {
+  display: flex;
+  color:$black;
+}
+
+
+.discount {
+  width: 227px;
+  padding: 20px;
+  background-color:$primaryColor;
+  color:#fff;
+  margin-left: 16px;
+  border-radius:10px;
+}
+.discount__heading {
+   display: flex;
+   align-items: center;
+   font-weight: 400;
+   font-size: 15px;
+   gap: 15px;
+   margin-bottom: 13px;
+     &::before{
+      @include icon($img:url(/assets/icons/icon-gift.svg));
+
+     }
+}
+.discount__cost {
+  display: flex;
+  align-items:center;
+  gap: 20px;
+
+  p{
+     margin-bottom: 0;
+
+     b{
+         font-weight: 700;
+         font-size: 30px;
+     }
+  }
+}
+.btn {
+}
+.button {
+  padding: 10px 27px;
+  background-color:$darkBlue;
+  color:#fff;
+
+    &:hover{
+      transition: background-color 1s ease,
+       color 1s ease;
+      background-color:#fff;
+      color:$primaryColor;
+    }
+}

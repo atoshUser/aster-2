@@ -1,0 +1,144 @@
+
+
+.header {
+}
+.header__box {
+display: flex;
+padding: 15px 35px;
+justify-content: space-between;
+align-items: center;
+white-space: nowrap;
+}
+.logo {
+  display:inline-block;
+
+}
+.logo__link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  gap: 15px;
+
+     & img{
+           width: 35px;
+           height: 40px;
+     }
+}
+.logo__text {
+  font-weight: 700;
+  font-size: 18px;
+  color:$darkBlue;
+}
+.form {
+  display: flex;
+  width: 495px;
+ align-items: center;
+ background-color:rgb(7, 45, 75,0.1);
+ border-radius: 10px;
+ padding-right: 12px;
+
+ position: relative;
+ left: -60px;
+  &::after{
+    display: block;
+    content: " ";
+    width: 24px;
+    height: 24px;
+     background-image: url(/assets/icons/icon-search.svg);
+     background-repeat: no-repeat;
+     background-size: cover;
+   }
+    input{
+      width: 100%;
+      padding: 10px 12px;
+      border-radius:10px;
+      border: transparent;
+      background-color: transparent;
+      color: #2d7edc;
+      font-size: 22px;
+      font-weight: 500;
+
+
+       &::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+        color: rgb(7, 45, 75,0.4);
+        opacity: 1; /* Firefox */
+      }
+
+      :-ms-input-placeholder { /* Internet Explorer 10-11 */
+        color: rgb(7, 45, 75,0.4);
+      }
+
+      ::-ms-input-placeholder { /* Microsoft Edge */
+        color: rgb(7, 45, 75,0.4);
+      }
+
+      &:focus{
+        outline: 2px dashed rgb(85, 195, 231);
+       }
+
+    }
+
+}
+
+.covid{
+  display: flex;
+  align-items: center;
+  padding:15px;
+ text-decoration: none;
+ color:#072D4B;
+ border:1px solid #072D4B;
+ gap: 5px;
+ border-radius:5px;
+ position: relative;
+ left: -120px;
+  p{
+    margin: 0;
+  }
+
+    &::after{
+
+      @include icon($img:url(/assets/icons/icon-right.svg));
+      margin-left: 20px;
+       width: 20px;
+       height: 19px;
+    }
+}
+
+.dropdown {
+display: flex;
+align-items:center;
+
+  &::before{
+    display: block;
+    width: 24px;
+    height: 24px;
+    content:" ";
+    background-image:url(/assets/icons/icon-user.svg);
+    background-repeat: no-repeat;
+    background-size:cover;
+  }
+}
+.btn {
+}
+.dropdown-toggle {
+}
+.dropdown-menu {
+padding: 0;
+border: none;
+background-color:transparent;
+}
+.dropdown-item{
+  text-align: center;
+  border: 1px solid  rgb(85, 195, 231);
+  padding: 10px;
+  border-radius:10px;
+  margin-bottom: 10px;
+  &:hover{
+     background-color:  rgb(85, 195, 231);
+     color:#fff;
+  }
+
+  &:last-child{
+    margin-bottom: none;
+  }
+}

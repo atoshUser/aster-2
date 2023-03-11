@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aster.com</title>
+
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./global.css">
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="header__box">
+      <span class="logo">
+        <a class="logo__link" href="#"><img src="./assets/icons/icon-site-logo.svg" alt="site-logo-img" width="30"
+            height="35">
+          <b class="logo__text">Aster News</b></a>
+      </span>
+
+      <div class="form">
+        <input type="search" name="search" placeholder="Search for news...">
+      </div>
+      <a class="covid" href="#">
+        Latest news on <p style="color: #2F9FF8;">Covid-19</p>
+      </a>
+
+      <div class="dropdown">
+        <button class="btn  dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+          My profile
+        </button>
+        <ul class="dropdown-menu">
+          <li class="heeader-user"><a class="dropdown-item" href="#">Account</a></li>
+          <li class="heeader-user"><a class="dropdown-item" href="#">Projects</a></li>
+          <li class="heeader-user"><a class="dropdown-item" href="#">Sponsors</a></li>
+          <li class="heeader-user"><a class="dropdown-item" href="#">Upgrade</a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+  <main class="main-content">
+
+    <aside class="side-left">
+      <ul class="side-left__list">
+        <lzi class="side-left__item">
+          <a class="side-left__link" href="#">Top Stories</a>
+        </lzi>
+        <li class="side-left__item">
+          <a class="side-left__link" href="#">
+            <svg class="icon-aside" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10ZM2 12h20" />
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10v0Z" />
+            </svg>
+            Around the World</a>
+        </li>
+        <li class="side-left__item">
+          <a class="side-left__link" href="#">
+            <svg class="icon-aside" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M20 7H4a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2Z" />
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16" />
+            </svg>
+            Business</a>
+        </li>
+        <li class="side-left__item">
+          <a class="side-left__link" href="#">
+            <svg class="icon-aside" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M22 12h-4l-3 9L9 3l-3 9H2" />
+            </svg>
+          </a>
+        </li>
+        <hr>
+        <li class="side-left__item">
+
+          <a class="side-left__link" href="#">
+            <svg class="icon-aside" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10Z" />
+              <path stroke="currentColor" stroke-width="2" d="M12 9v6M15 12H9" />
+            </svg>
+            Covid 19</a>
+        </li>
+        <hr>
+        <li class="side-left__item">
+
+          <a class="side-left__link" href="#">
+            <svg class="icon-aside" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10Z" />
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="m10 8 6 4-6 4V8Z" />
+            </svg>
+            Entertainment</a>
+        </li>
+        <li class="side-left__item">
+          <a class="side-left__link" href="#">
+            <svg class="icon-aside" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M12 15a7 7 0 1 0 0-14 7 7 0 0 0 0 14Z" />
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M8.21 13.89 7 23l5-3 5 3-1.21-9.12" />
+            </svg>
+            Sports</a>
+        </li>
+        <li class="side-left__item">
+          <a class="side-left__link" href="#">
+            <svg class="icon-aside" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.379 8.379 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5Z" />
+            </svg>
+            Discussion</a>
+        </li>
+        <li class="side-left__item">
+          <a class="side-left__link" href="#">
+            <svg class="icon-aside" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M18 8A6 6 0 1 0 6 8c0 7-3 9-3 9h18s-3-2-3-9ZM13.73 21a1.999 1.999 0 0 1-3.46 0" />
+            </svg>
+            Notification</a>
+        </li>
+        <li class="side-left__item">
+          <a class="side-left__link" href="#">
+            <svg class="icon-aside" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none">
+              <g stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                clip-path="url(#a)">
+                <path d="M12 15a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z" />
+                <path
+                  d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a1.998 1.998 0 0 1 0 2.83 1.998 1.998 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a1.998 1.998 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 1 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 1 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 3.417 1.415 2 2 0 0 1-.587 1.415l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1v0Z" />
+              </g>
+              <defs>
+                <clipPath id="a">
+                  <path fill="#fff" d="M0 0h24v24H0z" />
+                </clipPath>
+              </defs>
+            </svg>
+            News Feed Settings</a>
+        </li>
+      </ul>
+
+      <div class="discount">
+        <h3 class="discount__heading">Subscribe to Premium</h3>
+        <span class="discount__cost">
+          <p><b>$8</b>/m</p>
+          <button class="btn button" type="button">Upgrade</button>
+        </span>
+      </div>
+    </aside>
+
+
+    <section class="site-main">
+      <h3 class="site-main__heading">Leak: Samsung to announce the Z Fold 3 and Galaxy Watch 4 in August</h3>
+      <p>Samsung's next Unpacked event reportedly lands August 11</p>
+      <img class="samsung" src="/assets/img/samsung-last-version.png" alt="samsung-phone-img" width="774" height="435"
+        srcset="/assets/img/samsung-last-version.png 1x, /assets/img/samsung-last-version@2x.png 2x">
+
+      <p>Samsung had a pretty quiet Mobile World Congress event, but it did tell us we’d learn more about its upcoming
+        Google-approved smartwatch at its next Unpacked event. Unfortunately, the company didn’t tell us when exactly
+        that would be, but a new report from Korean publication DigitalDaily News (via 9to5Google) claims the next
+        Unpacked will take place on August 11, at 10 AM ET.
+      </p>
+
+      <p>According to the report, Samsung will be launching five devices at the event:
+      </p>
+
+      <div class="info-samsung">
+        <ul class="info-samsung__list">
+          <li>Galaxy Z Fold 3 </li>
+          <li>Galaxy Z Flip 3</li>
+          <li>Galaxy Watch 4</li>
+          <li>Galaxy Watch 4 Active</li>
+          <li>Galaxy Buds 2</li>
+        </ul>
+
+<div class="text-wrapper">
+     <p>Notably, the new Galaxy Watches will be Samsung’s first to not use Tizen OS. Google collaborated with Samsung to revamp Wear OS from the ground up, making it smoother and more efficient.</p>
+     <p>Hopefully, the devices are able to maintain the long battery life Samsung’s smartwatches have been known for, while having much greater compatibility with smartwatch apps via Wear OS. That said, the watch will use a custom One UI Watch skin — because it wouldn’t be Samsung if it didn’t put its own twist on the software.</p>
+     <p>As for the Z Fold 3, it’s expected to be a refinement of the original Fold’s concept without major changes to the form factor. The biggest change aside from the expected spec bump is that the Z Fold 3 will support the S-Pen.</p>
+     <p>The event will reportedly be broadcast via YouTube, as per usual, and there is no indication the company plans to hold a concurrent physical event. With the rumored date a little over a month away, I’d expect an official announcement from Samsung within the next week or two.</p>
+      <span class="text-footer">
+        <p class="text-published">Published July 5, 2021 - 8:16 pm IST</p>
+          <h5 class="text-author">by John Abraham</h5>
+                 <a href="#">Back to top</a>
+      </span>
+
+</div>
+
+
+                     <form action="https://echo.htmlacademy.ru">
+                          <legend for="comment">Add your comment</legend>
+                              <textarea name="comment" id="comment" vertical style="width: 100%; min-height: 96px;border: none;padding: 15px; background-color: #dae6f2; color: #fff; margin-bottom: 10px;" placeholder="Enter your comment here.."></textarea>
+
+                              <button class="input-btn post-btn" type="submit">Post Commit</button>
+
+                              <h3 class="comment-view">View all comments(04)</h3>
+                     </form>
+
+
+                     <form class="email-fieldset" action="htpps://echo.htmlacademy.ru">
+                          <fieldset class="email-wrapper">
+                            <span>
+                              <h3>Subscribe to our newsletter</h3>
+                              <div>
+                                                         <input type="email" placeholder="Enter Email" name="Email" required>
+                                                         <button class="input-btn ">Subscribe</button>
+                                                      </div>
+                            </span>
+                          </fieldset>
+                     </form>
+
+
+
+
+      </div>
+      <div class="top-news">
+        <ul class="features__list">
+
+
+          <li class="fatures__item new">
+            <span class="features__info">
+              <span class="features__info-box">
+                <h4 class="features__heading">INDvENG Tests to be played in front of crowd </h4>
+                <p class="features__paragraph">The 5-Test series between India & England is set to be played in front of
+                  packed..</p>
+              </span>
+
+              <img src="/assets/img/img-run.jpg" alt="img-run" width="172" height="130"
+                srcset="/assets/img/img-run.jpg 1x, /assets/img/img-run@2x.jpg 2x">
+            </span>
+
+
+            <div class="wrapper">
+              <span class="features__footer">
+                <p>Sport Biz</p>
+                <p>7 hours ago</p>
+              </span>
+              <span class="dispatch">
+                <a class="dispatch__link" href="#">
+                  <svg class="dispatch-icon" xmlns="http://www.w3.org/2000/svg" width="17" height="16" fill="none">
+                    <path stroke="#0768B5" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                      d="M2.71 8v5.333c0 .354.143.693.397.943s.599.39.958.39h8.13c.359 0 .704-.14.958-.39s.397-.589.397-.943V8M10.84 4 8.13 1.333 5.42 4M8.13 1.333V10" />
+                  </svg>
+                  Share
+                </a>
+                <a class="dispatch__link" href="#">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="17" height="16" fill="none">
+                    <g stroke="#0768B5" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                      clip-path="url(#a)">
+                      <path
+                        d="M3.104 2h10.84c.36 0 .704.14.958.39s.397.59.397.943v4a6.613 6.613 0 0 1-1.984 4.714A6.831 6.831 0 0 1 8.525 14c-.89 0-1.771-.172-2.593-.508a6.783 6.783 0 0 1-2.198-1.445 6.613 6.613 0 0 1-1.985-4.714v-4c0-.353.143-.692.397-.942S2.746 2 3.104 2v0Z" />
+                      <path d="m5.814 6.667 2.71 2.666 2.71-2.666" />
+                    </g>
+                    <defs>
+                      <clipPath id="a">
+                        <path fill="#fff" d="M.395 0h16.259v16H.394z" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                  Read Later
+                </a>
+              </span>
+            </div>
+          </li>
+
+          <!-- ITEM 2 -->
+
+
+          <li class="fatures__item">
+            <span class="features__info">
+              <span class="features__info-box">
+                <h4 class="features__heading">The 10 Coolest Wearable Tech Gadgets Of 2021 (So Far)
+                </h4>
+                <p class="features__paragraph">Driven by demand for connected earbuds and a..</p>
+              </span>
+
+              <img src="/assets/img/img-smartWatch.jpg" alt="img-smart-watch" width="172" height="130"
+                srcset="/assets/img/img-smartWatch.jpg 1x, /assets/img/img-smartWatch@2x.jpg 2x">
+            </span>
+
+
+            <div class="wrapper">
+              <span class="features__footer">
+                <p>The Mint</p>
+                <p>7 hours ago</p>
+              </span>
+              <span class="dispatch">
+                <a class="dispatch__link" href="#">
+                  <svg class="dispatch-icon" xmlns="http://www.w3.org/2000/svg" width="17" height="16" fill="none">
+                    <path stroke="#0768B5" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                      d="M2.71 8v5.333c0 .354.143.693.397.943s.599.39.958.39h8.13c.359 0 .704-.14.958-.39s.397-.589.397-.943V8M10.84 4 8.13 1.333 5.42 4M8.13 1.333V10" />
+                  </svg>
+                  Share
+                </a>
+                <a class="dispatch__link" href="#">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="17" height="16" fill="none">
+                    <g stroke="#0768B5" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                      clip-path="url(#a)">
+                      <path
+                        d="M3.104 2h10.84c.36 0 .704.14.958.39s.397.59.397.943v4a6.613 6.613 0 0 1-1.984 4.714A6.831 6.831 0 0 1 8.525 14c-.89 0-1.771-.172-2.593-.508a6.783 6.783 0 0 1-2.198-1.445 6.613 6.613 0 0 1-1.985-4.714v-4c0-.353.143-.692.397-.942S2.746 2 3.104 2v0Z" />
+                      <path d="m5.814 6.667 2.71 2.666 2.71-2.666" />
+                    </g>
+                    <defs>
+                      <clipPath id="a">
+                        <path fill="#fff" d="M.395 0h16.259v16H.394z" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                  Read Later
+                </a>
+              </span>
+            </div>
+          </li>
+
+
+          <!-- ITEM 3 -->
+
+
+          <li class="fatures__item">
+            <span class="features__info">
+              <span class="features__info-box">
+                <h4 class="features__heading">Biden's cold response to Afghanistan's collapse to have far consequences
+                </h4>
+                <p class="features__paragraph">When US President Joe Biden chose in April to withdraw all American
+                  forces from Afghanistan by September, we were among those who judged..</p>
+              </span>
+
+
+            </span>
+
+
+            <div class="wrapper">
+              <span class="features__footer">
+                <p>Radar 52</p>
+                <p>7 hours ago</p>
+              </span>
+              <span class="dispatch">
+                <a class="dispatch__link" href="#">
+                  <svg class="dispatch-icon" xmlns="http://www.w3.org/2000/svg" width="17" height="16" fill="none">
+                    <path stroke="#0768B5" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                      d="M2.71 8v5.333c0 .354.143.693.397.943s.599.39.958.39h8.13c.359 0 .704-.14.958-.39s.397-.589.397-.943V8M10.84 4 8.13 1.333 5.42 4M8.13 1.333V10" />
+                  </svg>
+                  Share
+                </a>
+                <a class="dispatch__link" href="#">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="17" height="16" fill="none">
+                    <g stroke="#0768B5" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                      clip-path="url(#a)">
+                      <path
+                        d="M3.104 2h10.84c.36 0 .704.14.958.39s.397.59.397.943v4a6.613 6.613 0 0 1-1.984 4.714A6.831 6.831 0 0 1 8.525 14c-.89 0-1.771-.172-2.593-.508a6.783 6.783 0 0 1-2.198-1.445 6.613 6.613 0 0 1-1.985-4.714v-4c0-.353.143-.692.397-.942S2.746 2 3.104 2v0Z" />
+                      <path d="m5.814 6.667 2.71 2.666 2.71-2.666" />
+                    </g>
+                    <defs>
+                      <clipPath id="a">
+                        <path fill="#fff" d="M.395 0h16.259v16H.394z" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                  Read Later
+                </a>
+              </span>
+            </div>
+          </li>
+
+          <!-- ITEM 4 -->
+
+
+          <li class="fatures__item">
+            <span class="features__info">
+              <span class="features__info-box">
+                <h4 class="features__heading">Hardik Pandya 'is bowling and it is a very good sign' - Suryakumar
+                </h4>
+                <p class="features__paragraph">I think that the team management and Hardik..</p>
+              </span>
+
+              <img src="/assets/img/img-football.jpg" alt="img-footeball-player" width="172" height="130"
+                srcset="/assets/img/img-football.jpg 1x, /assets/img/img-football@2x.jpg 2x">
+            </span>
+
+
+            <div class="wrapper">
+              <span class="features__footer">
+                <p>Live Mint</p>
+                <p>5 hours ago</p>
+              </span>
+              <span class="dispatch">
+                <a class="dispatch__link" href="#">
+                  <svg class="dispatch-icon" xmlns="http://www.w3.org/2000/svg" width="17" height="16" fill="none">
+                    <path stroke="#0768B5" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                      d="M2.71 8v5.333c0 .354.143.693.397.943s.599.39.958.39h8.13c.359 0 .704-.14.958-.39s.397-.589.397-.943V8M10.84 4 8.13 1.333 5.42 4M8.13 1.333V10" />
+                  </svg>
+                  Share
+                </a>
+                <a class="dispatch__link" href="#">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="17" height="16" fill="none">
+                    <g stroke="#0768B5" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                      clip-path="url(#a)">
+                      <path
+                        d="M3.104 2h10.84c.36 0 .704.14.958.39s.397.59.397.943v4a6.613 6.613 0 0 1-1.984 4.714A6.831 6.831 0 0 1 8.525 14c-.89 0-1.771-.172-2.593-.508a6.783 6.783 0 0 1-2.198-1.445 6.613 6.613 0 0 1-1.985-4.714v-4c0-.353.143-.692.397-.942S2.746 2 3.104 2v0Z" />
+                      <path d="m5.814 6.667 2.71 2.666 2.71-2.666" />
+                    </g>
+                    <defs>
+                      <clipPath id="a">
+                        <path fill="#fff" d="M.395 0h16.259v16H.394z" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                  Read Later
+                </a>
+              </span>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <button class="button btn-cta" type="button">Show more</button>
+
+      <hr class="hr">
+
+
+      <div class="footer">
+        <p>© Aster News, 2022</p>
+        <ul>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms of Service</a></li>
+        </ul>
+      </div>
+
+    </section>
+
+    <section class="site-right">
+
+      <div class="weather-wrapper">
+        <span class="weather">
+          <p class="weather__text">Coimbatore, Tamil Nadu</p> <svg xmlns="http://www.w3.org/2000/svg" width="18"
+            height="18" fill="none">
+            <g stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              clip-path="url(#a)">
+              <path d="M9 16.5a7.5 7.5 0 1 0 0-15 7.5 7.5 0 0 0 0 15ZM16.5 9h-3M4.5 9h-3M9 4.5v-3M9 16.5v-3" />
+            </g>
+            <defs>
+              <clipPath id="a">
+                <path fill="#fff" d="M0 0h18v18H0z" />
+              </clipPath>
+            </defs>
+          </svg>
+        </span>
+        <hr>
+        <span class="celcius-box">
+          <p class="celcius-box__number">Sunny <span class="celcius"><br> <b>31<sup>o</sup>C</b></span>
+        </span></p>
+        <span class="celcius-footer">
+          <p>Celsius</p>
+          <p>Fahrenheit</p>
+        </span>
+        </span>
+      </div>
+
+      <div class="story-wrapper">
+        <h3 class="story__heading">Become a Stroy Writer</h3>
+        <span class="story__footer">
+          <p class="story__text">Contribute stories and start earning.</p>
+          <a class="btn btn-outline-primary story-btn" href="#">Know More</a>
+        </span>
+      </div>
+
+      <div class="info">
+        <span class="info__wrapper">
+          <h3 class="info__heading">Quick Bytes</h3>
+          <span>
+            <img src="./assets/img/icon-left.png" alt="icon-left" width="24" height="24"
+              srcset="./assets/img/icon-left.png 1x, ./assets/img/icon-left@2x.png 2x">
+            <img src="./assets/img/icon-right.png" alt="icon-left" width="24" height="24"
+              srcset="./assets/img/icon-right.png 1x, ./assets/img/icon-right@2x.png 2x">
+          </span>
+        </span>
+        <hr>
+        <p>The price of petrol remained unchanged on July 6 after reaching a new record high on the previous day,
+          according to a price notification by state-owned fuel retailers. The diesel price remained stable for the
+          second consecutive day.
+        </p>
+        <p>The increase on July 5, 35th in two months, took the petrol price in Delhi closer to Rs 100 per litre-mark.
+          The petrol price in the national capital soared to Rs 99.9 a litre and diesel was priced at Rs 89.4 per litre,
+          according to Bharat Petroleum's price listing.</p>
+      </div>
+
+      <form class="form-aside" action="https://echo.htmlacademy.ry">
+        <h3>Subscribe to our newsletter</h3>
+        <input type="email" placeholder="Enter your Email" required>
+        <button class="input-btn" type="submit">Subscribe</button>
+      </form>
+    </section>
+
+
+  </main>
+</body>
+
+</html>
